@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f4ef" />
+    <title>forcyt</title>
+  </head>
+  <body>
+    <main id="app">
+      <div class="loading" role="status" aria-live="polite"><span></span>正在培育花朵</div>
+      <div class="fallback" hidden>
+        <img src="./assets/flower.jpg" alt="一束粉色与奶白色的百合花" />
+        <p>当前浏览器无法显示互动粒子，已呈现原始花卉。</p>
+      </div>
+      <div class="controls" hidden>
+        <button type="button" class="replay" aria-label="重新播放花朵生长动画">重新生长</button>
+        <p>移动指针，让花朵短暂散开</p>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
